@@ -8,3 +8,9 @@ export interface UserDocument {
   createdAt: Date;
   updatedAt: Date;
 }
+
+export interface RegisterValues {
+  email: string;
+  password: string;
+  name: string;
+}
